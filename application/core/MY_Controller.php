@@ -75,16 +75,18 @@ class MY_Controller extends MX_Controller {
 		$this->mScripts = empty($config['scripts']) ? array() : $config['scripts'];
 		$this->mStylesheets = empty($config['stylesheets']) ? array() : $config['stylesheets'];
 		$this->mPageAuth = empty($config['page_auth']) ? array() : $config['page_auth'];
-
+                
+                
 		// multilingual setup
 		$lang_config = empty($config['languages']) ? array() : $config['languages'];
 		if ( !empty($lang_config) )
 		{
 			$this->mMultilingual = TRUE;
 			$this->load->helper('language');
-
+                        $aa = $this->uri->segment(1);
+                        
 			// redirect to Home page in default language
-			if ( empty($this->uri->segment(1)) )
+			if ( empty($aa) )
 			{
 				$home_url = base_url($lang_config['default']).'/';
 				redirect($home_url);

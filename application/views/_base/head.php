@@ -40,4 +40,4 @@
 	<![endif]-->
 </head>
 <!--<body class="<?php //echo $body_class; ?>"  data-open="hover" data-menu="horizontal-menu" data-col="2-columns">-->
-<body class="horizontal-layout horizontal-top-icon-menu 2-columns  menu-expanded"  data-open="hover" data-menu="horizontal-menu" data-col="2-columns" data-base_url="<?php echo base_url(); ?>">
+<body>

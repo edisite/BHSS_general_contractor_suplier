@@ -956,7 +956,7 @@ class Ion_auth_model extends CI_Model
 			// add to groups
 			foreach ($groups as $group)
 			{
-				$this->add_to_group($group, $id, $kode_mitra);
+				$this->add_to_group($group, $id, 0);
 			}
 		}
 
@@ -1491,9 +1491,9 @@ class Ion_auth_model extends CI_Model
 		foreach ($group_ids as $group_id)
 		{
 			$insertarraygroup  = array( $this->join['groups'] => (float)$group_id, $this->join['users'] => (float)$user_id);
-                        if($kode_mitra > 0 || count(isset($kode_mitra)) > 0){
-                            $insertarraygroup  = array_merge($insertarraygroup, array('mitra_id' => $kode_mitra));
-                        }
+//                        if($kode_mitra > 0 || count(isset($kode_mitra)) > 0){
+//                            $insertarraygroup  = array_merge($insertarraygroup, array('mitra_id' => $kode_mitra));
+//                        }
                         if ($this->db->insert($this->tables['users_groups'],$insertarraygroup ))
 			{
 				if (isset($this->_cache_groups[$group_id])) {

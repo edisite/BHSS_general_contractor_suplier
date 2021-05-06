@@ -9,17 +9,19 @@
                     <div class="card border-grey border-lighten-3 m-0">
                         <div class="card-header border-0">
                             <div class="card-title text-center">
-                                <div class="p-1"><img src="<?php echo base_url(); ?>app-assets/images/logo/kilostok.png" alt="branding logo"></div>
+                                <div class="p-1"><img src="<?php echo base_url(); ?>assets/3th/img/loder-logo.png" alt="branding logo" width="180px" height="90px"></div>
                             </div>
                             <h6 class="card-subtitle line-on-side text-muted text-center font-small-3 pt-2"><span>login page administrator</span></h6>
                         </div>
                         <div class="card-content">
                             <div class="card-body pt-0">
                                 <h2 class="_title font-bold">Halo, Selamat datang kembali!</h2>
-                                    <p class="nomargin">Masukan username dan kata sandi Anda pada form di bawah. </p>
+                                    <p class="nomargin">Masukan username dan kata sandi Anda di bawah. </p>
                                 <?php echo $form->open(); ?>                                
-                                <?php echo $form->messages(); ?>                                
-                                <form class="form-horizontal" action="index.html">
+                                <div>
+                                    <?php echo $form->messages(); ?>
+                                </div>                               
+                                <form class="form-horizontal" action="">
                                         <?php echo $form->bs3_text('Username', 'username', ENVIRONMENT==='development' ? 'webmaster' : ''); ?>
                                         <?php echo $form->bs3_password('Password', 'password', ENVIRONMENT==='development' ? 'webmaster' : ''); ?>
                                     <div class="form-group row">

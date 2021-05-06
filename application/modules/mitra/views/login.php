@@ -10,7 +10,7 @@
                     <div class="card border-grey border-lighten-3 m-0">
                         <div class="card-header border-0">
                             <div class="card-title text-center">
-                                <div class="p-1"><img src="<?php echo base_url(); ?>app-assets/images/logo/kilostok.png" alt="branding logo"></div>
+                                <div class="p-1"><img src="<?php echo base_url(); ?>app-assets/images/logo/logo-dark.png" alt="branding logo"></div>
                             </div>
                             <h6 class="card-subtitle line-on-side text-muted text-center font-small-3 pt-2"><span>login page administrator</span></h6>
                         </div>
@@ -23,7 +23,7 @@
                                 
                                         <?php echo $form->bs3_text('Username', 'username', ENVIRONMENT==='development' ? 'webmaster' : ''); ?>
                                         <?php echo $form->bs3_password('Password', 'password', ENVIRONMENT==='development' ? 'webmaster' : ''); ?>
-                                        <?php echo $form->field_recaptcha(); ?>
+                                        <?php // echo $form->field_recaptcha(); ?>
                                     <div class="form-group row">
                                         <div class="col-md-6 col-12 text-center text-sm-left">
                                             <fieldset>

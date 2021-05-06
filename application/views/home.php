@@ -1,189 +1,213 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - KiloStock Fintech</title>
-    <meta name="description" content="Memodernisasi keuangan mikro bagi masyarakat di sektor ekonomi informal dan piramida terbawah.">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>hassets/bootstrap/css/bootstrap.min.css?h=df67b69f451eff1a5f0948da2000feb1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>hassets/css/styles.min.css?h=04ae5339560ec7f6b039029c7e08dcf7">
-</head>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
 
-<body>
-    <!-- Start: Pretty Header -->
-    <nav class="navbar navbar-light navbar-expand-md custom-header">
-        <div class="container-fluid">
-            <div><a class="navbar-brand" href="#">KiloStock</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
-            <div class="collapse navbar-collapse"
-                id="navbar-collapse">
-                <ul class="nav navbar-nav links">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Investor</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Mitra</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Cara Kerja</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link custom-navbar" href="#"> Tentang Kami</a></li>
-                </ul>
-                <ul class="nav navbar-nav">
-                    <li class="nav-item" role="presentation"></li>
-                </ul>
-                <ul class="nav navbar-nav ml-auto"></ul>
-            </div><span> </span><span> <a class="btn btn-light action-button" role="button" href="#" style="background-color: rgb(204,213,212);">Log In</a><a class="btn btn-light action-button" role="button" href="#" style="background-color: rgb(218,145,145);">Sign Up</a></span></div>
-    </nav>
-    <!-- End: Pretty Header -->
-    <!-- Start: Header Blue -->
-    <div></div>
-    <!-- End: Header Blue -->
-    <!-- Start: best carousel slide -->
-    <section id="carousel">
-        <!-- Start: Carousel Hero -->
-        <div class="carousel slide" data-ride="carousel" id="carousel-1">
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item">
-                    <div class="jumbotron pulse animated hero-nature carousel-hero">
-                        <h1 class="hero-title">Hero Nature</h1>
-                        <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-                        <p><a class="btn btn-primary hero-button plat" role="button" href="#">Learn more</a></p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="jumbotron pulse animated hero-photography carousel-hero">
-                        <h1 class="hero-title">Hero Photography</h1>
-                        <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-                        <p><a class="btn btn-primary hero-button plat" role="button" href="#">Learn more</a></p>
-                    </div>
-                </div>
-                <div class="carousel-item active">
-                    <div class="jumbotron pulse animated hero-technology carousel-hero">
-                        <h1 class="hero-title">Hero Technology</h1>
-                        <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-                        <p><a class="btn btn-primary hero-button plat" role="button" href="#">Learn more</a></p>
-                    </div>
-                </div>
-            </div>
-            <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><i class="fa fa-chevron-right"></i><span class="sr-only">Next</span></a></div>
-            <ol
-                class="carousel-indicators">
-                <li data-target="#carousel-1" data-slide-to="0"></li>
-                <li data-target="#carousel-1" data-slide-to="1"></li>
-                <li data-target="#carousel-1" data-slide-to="2" class="active"></li>
-                </ol>
-        </div>
-        <!-- End: Carousel Hero -->
-    </section>
-    <!-- End: best carousel slide -->
-    <section class="features-icons bg-light text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="icon-screen-desktop m-auto text-primary" data-bs-hover-animate="pulse"></i></div>
-                        <h3>Keuntungan Menarik</h3>
-                        <p class="lead mb-0">Dapatkan keuntungan hingga 15% per tahun &amp; cashflow mingguan, pembayaran angsuran dapat diambil kapanpun.<br><br></p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="icon-layers m-auto text-primary" data-bs-hover-animate="pulse"></i></div>
-                        <h3>Aman Terpercaya</h3>
-                        <p class="lead mb-0">Telah berizin usaha dan diawasi oleh OJK dan menggunakan sistem pengelolaan risiko terintegrasi di lapangan, teknologi, dan jaminan pendanaan dengan asuransi.<br><br></p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="icon-check m-auto text-primary" data-bs-hover-animate="pulse"></i></div>
-                        <h3><strong>Dampak Sosial</strong><br></h3>
-                        <p class="lead mb-0">Kami bertekad untuk menciptakan kesejahteraan merata di Indonesia. Dana Anda akan disalurkan kepada Perempuan Tangguh, pengusaha kecil dan mikro di pelosok pedesaan.<br><br></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="showcase">
-        <div class="container-fluid p-0">
-            <div class="row no-gutters">
-                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image:url(&quot;<?php echo base_url(); ?>hassets/img/bg-showcase-1.jpg?h=717dfd74ae2c9ffe2373428a05a3f602&quot;);"><span></span></div>
-                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
-                    <h2>Fully Responsive Design</h2>
-                    <p class="lead mb-0">When you use a theme created with Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
-                </div>
-            </div>
-            <div class="row no-gutters">
-                <div class="col-lg-6 text-white showcase-img" style="background-image:url(&quot;<?php echo base_url(); ?>hassets/img/bg-showcase-2.jpg?h=82f59ff9dc7ce5bb277d6dfa737a6e45&quot;);"><span></span></div>
-                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
-                    <h2>Updated For Bootstrap 4</h2>
-                    <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes are now using Bootstrap 4!</p>
-                </div>
-            </div>
-            <div class="row no-gutters">
-                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image:url(&quot;<?php echo base_url(); ?>hassets/img/bg-showcase-3.jpg?h=c7ec0329b8412e48f1b91e5c6a8cc7cf&quot;);"><span></span></div>
-                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
-                    <h2>Easy to Use &amp;&nbsp;Customize</h2>
-                    <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="testimonials text-center bg-light">
-        <div class="container">
-            <h2 class="mb-5">What people are saying...</h2>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="mx-auto testimonial-item mb-5 mb-lg-0"><img class="rounded-circle img-fluid mb-3" src="<?php echo base_url(); ?>hassets/img/testimonials-1.jpg?h=c9a15635305654b24ce5a3055e22f73e">
-                        <h5>Margaret E.</h5>
-                        <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="mx-auto testimonial-item mb-5 mb-lg-0"><img class="rounded-circle img-fluid mb-3" src="<?php echo base_url(); ?>hassets/img/testimonials-2.jpg?h=2f7c16e307b7da2bdf38d580d9a3fed9">
-                        <h5>Fred S.</h5>
-                        <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="mx-auto testimonial-item mb-5 mb-lg-0"><img class="rounded-circle img-fluid mb-3" src="<?php echo base_url(); ?>hassets/img/testimonials-3.jpg?h=39503ac082e01a410b496ed9ce0df8e6">
-                        <h5>Sarah W.</h5>
-                        <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Start: Pretty Footer -->
-    <footer>
+      <h1 style="color:#fe4d42; font-style: bold" href="#">GENERAL CONTRACTOR & SUPPLIER</h1>
+      
+      <a href="#about" class="btn-get-started scrollto ">Tentang Perusahaan</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="counts">
+      <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-md-4 footer-navigation">
-                <h3><a href="#">KiloStock</a></h3>
-                <p class="company-name">Company Name © 2015 </p>
-            </div>
-            <div class="col-sm-6 col-md-4 footer-contacts">
-                <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
-                    <p><span class="new-line-span">21 Revolution Street</span> Paris, France</p>
-                </div>
-                <div><i class="fa fa-phone footer-contacts-icon"></i>
-                    <p class="footer-center-info email text-left"> +1 555 123456</p>
-                </div>
-                <div><i class="fa fa-envelope footer-contacts-icon"></i>
-                    <p> <a href="#" target="_blank">support@company.com</a></p>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-md-4 footer-about">
-                <h4>About the company</h4>
-                <p> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet. </p>
-                <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+            <div class="col-lg-12 text-center">
+                <h2 class="text-uppercase text-left section-heading" style="font-family: 'Arial', cursive;font-size: 27px;height: 76px;width: 909px;margin: 27px;padding: 13px;"><strong>PT. BINTANG HARAPAN SUKSES SEJAHTERA</strong></h2>
             </div>
         </div>
-    </footer>
-    <!-- End: Pretty Footer -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-    <script src="<?php echo base_url(); ?>hassets/js/script.min.js?h=82d712d5e0811380f26d2753ca68c860"></script>
-</body>
+        <div class="row">
+            <div class="col">
+                <div class="portfolio-caption">
+                    <h3 class="text-left" style="font-size: 19px;padding: -6px;margin: 28px;height: -13px;width: 397px;"><strong>GENERAL CONTRACTOR &nbsp;AND SUPPLIER</strong></h3>
+                    <p class="text-justify text-dark" style="padding: 2px;color: rgb(32,82,132);font-size: 14px;height: 171px;width: 449px;">PT Bintang Harapan Sukses Sejahtera didirikan pada hari Senin tanggal 12 november 2018, dengan bidang kegiatan usaha Pertambangan, Perkebunan dan Pertanian, Pembangunan dan General Supllier. Seiring dengan perkembangan usahanya dibidang pertambangan khususnya batubara, dengan melakukan aktifitas pembukaan lahan yang berakibat pada munculnya berbagai isu-isu lingkungan. Hal tersebut mendorong pemerintah untuk lebih melakukan pengawasan yang lebih ketat dalam pelaksanaan penambangan serta pengelolahan lingkungannya... &nbsp;</p><a class="btn text-white" role="button"
+                        style="width: 128px;height: 34px;margin: 15px;padding: 11px;background-color: #fe4d42;font-size: 11px;" href="<?php echo base_url(); ?>tentangkami"><strong>LEBIH LANJUT</strong></a></div>
+            </div>
+            <div class="col" style="color: rgb(203,208,214);">
+                <div style="background-color: #f7f6fb;"><img class="img-fluid" src="<?php echo base_url(); ?>assets/3th/img/loder-logo.png" loading="auto" style="width: 100%;height: 251px;margin: 9px;">
+                    <div class="portfolio-caption"></div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
 
-</html>
+    <!-- ======= Counts Section ======= -->
+<!--    <section id="counts" class="counts">
+     
+    </section> End Counts Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+        <div class="container">
+        <div class="row">
+            <div class="section-title">
+                    <h2>LAYANAN KAMI</h2>
+                </div>   
+<!--            <div class="col-lg-12 text-center">
+                <h2 class="text-uppercase text-left section-heading" style="font-family: 'Abril Fatface', cursive;font-size: 19px;">LAYANAN KAMI</h2>
+            </div>-->
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 portfolio-item">
+                <a class="portfolio-link" href="<?php echo base_url(); ?>layanan/kendaraan">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content"></div>
+                    </div><img class="img-fluid" src="<?php echo base_url(); ?>assets/3th/img/image.jpg"></a>
+                <div class="portfolio-caption">
+                    <h3 class="text-center shadow" style="font-size: 15px;height: 50px;filter: invert(0%) sepia(0%);"><strong>JASA PENGADAAN KENDARAAN TAMBANG</strong></h3>
+                </div>
+                <a href="<?php echo base_url(); ?>layanan/kendaraan" style="font-family: 'Arbutus Slab', serif;">Lebih Lanjut &nbsp;<i class="fa fa-plus border rounded-0" style="color: rgb(246,248,243);background-color: #e15353;font-size: 8px;height: 16px;width: 16px;margin: 0px;padding: 3px;"></i>&nbsp;</a>
+                <hr
+                    style="background-color: #e15353;">
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item">
+                <a class="portfolio-link" href="<?php echo base_url(); ?>layanan/bahan_bakar">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content"></div>
+                    </div><img class="img-fluid" src="<?php echo base_url(); ?>assets/3th/img/tangki_solar.jpg"></a>
+                <div class="portfolio-caption">
+                    <h3 class="text-center shadow" style="font-size: 15px;height: 50px;"><strong>JASA PENGADAAN BAHAN BAKAR MINYAK</strong></h3>
+                    <a href="<?php echo base_url(); ?>layanan/bahan_bakar" style="font-family: 'Arbutus Slab', serif;">Lebih Lanjut &nbsp;<i class="fa fa-plus border rounded-0" style="color: rgb(246,248,243);background-color: #e15353;font-size: 8px;height: 16px;width: 16px;margin: 0px;padding: 3px;"></i>&nbsp;</a>
+                    <hr
+                        style="background-color: #e15353;">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item">
+                <a class="portfolio-link" href="<?php echo base_url(); ?>layanan/produsen_kapur">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content"></div>
+                    </div><img class="img-fluid" src="<?php echo base_url(); ?>assets/3th/img/kapur.jpg"></a>
+                <div class="portfolio-caption">
+                    <h3 class="text-center text-dark shadow" style="font-size: 15px;height: 50px;"><strong>PRODUSEN DAN SUPPLIER KAPUR</strong></h3>
+                    <a href="<?php echo base_url(); ?>layanan/produsen_kapur" style="font-family: 'Arbutus Slab', serif;">Lebih Lanjut &nbsp;<i class="fa fa-plus border rounded-0" style="color: rgb(246,248,243);background-color: #e15353;font-size: 8px;height: 16px;width: 16px;margin: 0px;padding: 3px;"></i>&nbsp;</a>
+                    <hr
+                        style="background-color: #e15353;">
+                </div>
+            </div>
+        </div>
+    </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Departments Section ======= -->
+    <section id="departments" class="departments">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>REKAN KERJA</h2>
+                </div>                
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h3 class="text-left text-center" style="font-size: 20px;"><strong>PT.NUSANTARA JAYA CHEMICAL</strong></h3>
+                    <div style="background-color: #3e25a3;"><img class="img-fluid" src="<?php echo base_url(); ?>assets/3th/img/IconRekan Kerjsa.jpg" loading="auto" style="width: 100%;height: 303px;">
+                        <div class="portfolio-caption">
+                            <h4 class="text-left text-white" style="font-size: 15px;padding: -6px;margin: 12px;height: -12px;width: 397px;color: rgb(225,226,227);"><strong>PT. BINTANG HARAPAN SUKSES SEJAHTERA</strong></h4>
+                            <p class="text-justify text-white" style="padding: 10px;color: rgb(225,226,227);">Telah bekerja sama dengan beberapa perusahaan tambang antara lain di bawah naungan Group PT. Nusantara Jaya Chemical...<br></p>
+                        </div><a class="btn text-white" role="button" style="width: 117px;height: 25px;margin: 15px;padding: 4px;background-color: #fe4d42;font-size: 11px;" href="<?php echo base_url().'rekankerja'?>"><strong>LEBIH LANJUT</strong></a></div>
+                </div>
+<!--                <div class="col-md-6 col-sm-6">
+                    <div style="background-color: #3e25a3;"><img class="img-fluid" src="<?php echo base_url(); ?>assets/3th/img/servicess3.png" loading="auto" style="width: 100%;margin: 0px;height: 207px;">
+                        <div class="portfolio-caption">
+                            <h4 class="text-left text-white" style="font-size: 15px;padding: -6px;margin: 12px;height: -12px;width: 397px;color: rgb(225,226,227);"><strong>PT. ENERGI NIAGA UTAMA</strong></h4>
+                            <p class="text-justify text-white" style="padding: 7px;color: rgb(225,226,227);">Adalah satu agen resmi PT Patra Niaga Pertamina. Area distribusi mencakup seluruh Indonesia dengan memberikan pelayanan produk dan jasa bahan bakar minyak.<br>Memasuki tahun ke-5 PT Energi Niaga Utama melakukan ekspansi bisnis
+                                antara lain fuel sales distribution, fuel transportation, shipping management dan handling.&nbsp;<em>Business to become a major and loyal company FUEL Product and Services as recuired by out client. In relating with that matter so many things has been done.</em><br></p>
+                        </div><a class="btn text-white" role="button" style="width: 117px;height: 25px;margin: 15px;padding: 4px;background-color: #fe4d42;font-size: 11px;" href="#"><strong>LEBIH LANJUT</strong></a></div>
+                </div>-->
+            </div>
+            
+        </div>
+    
+    </section><!-- End Departments Section -->
+
+
+
+<!--     ======= Contact Section ======= 
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>HUBUNGI KAMI</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+      </div>
+
+      <div>
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.36288785437694!2d117.45019796822189!3d0.1411942562975235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x320a11f756e8115f%3A0xac3fa2edd7160479!2zMMKwMDgnMjguMiJOIDExN8KwMjcnMDEuMCJF!5e0!3m2!1sen!2sid!4v1606242334429!5m2!1sen!2sid" frameborder="0" allowfullscreen></iframe>
+      </div>
+        
+
+      <div class="container">
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>PT.BINTANG HARAPAN SUKSES SEJAHTERA<br>
+                JL. S. Parman No.14 Kelurahan Belimbing Kecamatan Bontang Barat Kota Bontang Kalimantan Timur</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@bhss.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+021 99988877</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+              <p>KRITIK DAN SARAN</p>
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="required" data-msg="Please enter a subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">KIRIM</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section> End Contact Section -->
+
+  </main><!-- End #main -->

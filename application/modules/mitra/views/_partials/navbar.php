@@ -7,7 +7,7 @@
             
             <li class="nav-item">
                 <a class="navbar-brand" href="">                    
-                    <h3 class="brand-text">KILOSTOCK</h3>
+                    <h3 class="brand-text">Go Bakso Malang</h3>
                 </a>
             </li>
             <li class="nav-item d-md-none"><a class="nav-link open-navbar-container" data-toggle="collapse" data-target="#navbar-mobile"><i class="fa fa-ellipsis-v"></i></a></li>

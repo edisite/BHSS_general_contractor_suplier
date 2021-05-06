@@ -90,33 +90,38 @@ $config['ci_bootstrap'] = array(
 			'url'		=> '',
 			'icon'		=> 'fa fa-medium',
 			'children'  => array(
-				'Bidang'			=> 'masterdata/bidang',
-				'Kategori Produk'               => 'masterdata/produk_kategori',
-				'Periode'			=> 'masterdata/periode',
-				'Satuan'			=> 'masterdata/satuan',
-				'Daftar Bank'			=> 'masterdata/bank',
-				'Daftar Provinsi'			=> 'masterdata/provinsi',
-				'Daftar Kab. Kota'			=> 'masterdata/regensi',
+				'Daftar Kategori'			=> 'masterdata/kategori',
+				'Daftar Produk'			=> 'masterdata/produk',
 			)
 		),
-		'mitra' => array(
-			'name'		=> 'Mitra',
+		'user' => array(
+			'name'		=> 'Pelanggan',
 			'url'		=> 'mitra',
-			'icon'		=> 'fa fa-address-card',
+			'icon'		=> 'fa fa-user',
 			'children'  => array(
-				'List Mitra'							=> 'partner/mitra',
-				'Pengajuan Pinjaman'                  	=> 'mitra/peganjuan',
+				'Daftar User'							=> 'partner/user',
+//				'Pengajuan Pinjaman'                  	=> 'mitra/peganjuan',
 			)
 		),
-		'funder' => array(
-			'name'		=> 'Funder',
-			'url'		=> 'funder',
-			'icon'		=> 'fa fa-address-card-o',
-			'children'  => array(
-				'List Funder'                   => 'partner/funder',
-				'Create Funder'                 => '',
-			)
+		'pesan' => array(
+			'name'		=> 'Pesan Pelanggan',
+			'url'		=> 'partner/user/pesan',
+			'icon'		=> 'fa fa-envelope-square',
 		),
+		'transaksi' => array(
+			'name'		=> 'Transaksi',
+			'url'		=> 'transaksi',
+			'icon'		=> 'fa fa-users',
+		),
+//		'report' => array(
+//			'name'		=> 'Report',
+//			'url'		=> 'funder',
+//			'icon'		=> 'fa fa-address-card-o',
+//			'children'  => array(
+//				'Report Harian'                   => '',
+//				'Report Bulanan'                 => '',
+//			)
+//		),
 		'panel' => array(
 			'name'		=> 'Admin Panel',
 			'url'		=> 'panel',
@@ -127,14 +132,14 @@ $config['ci_bootstrap'] = array(
 				'Admin User Groups'		=> 'panel/admin_user_group',
 			)
 		),
-		'util' => array(
-			'name'		=> 'Utilities',
-			'url'		=> 'util',
-			'icon'		=> 'fa fa-cogs',
-			'children'  => array(
-				'Database Versions'		=> 'util/list_db',
-			)
-		),
+//		'util' => array(
+//			'name'		=> 'Utilities',
+//			'url'		=> 'util',
+//			'icon'		=> 'fa fa-cogs',
+//			'children'  => array(
+//				'Database Versions'		=> 'util/list_db',
+//			)
+//		),
 		'logout' => array(
 			'name'		=> 'Logout',
 			'url'		=> 'panel/logout',
@@ -152,8 +157,8 @@ $config['ci_bootstrap'] = array(
 		'user/group'				=> array('webmaster', 'admin', 'manager'),
 		'panel'						=> array('webmaster'),
 		'panel/admin_user'			=> array('webmaster'),
-		'panel/admin_user_create'               => array('webmaster'),
-		'panel/admin_user_group'                => array('webmaster'),
+		'panel/admin_user_create'   => array('webmaster'),
+		'panel/admin_user_group'    => array('webmaster'),
 		'util'						=> array('webmaster'),
 		'util/list_db'				=> array('webmaster'),
 		'util/backup_db'			=> array('webmaster'),
@@ -164,7 +169,7 @@ $config['ci_bootstrap'] = array(
 	// AdminLTE settings
 	'adminlte' => array(
 		'body_class' => array(
-			'webmaster'	=> 'navbar-dark',
+			'webmaster'	=> 'navbar-light',
 			'admin'		=> '',
 			'manager'	=> '',
 			'staff'		=> '',

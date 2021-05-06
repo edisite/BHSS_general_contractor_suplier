@@ -17,6 +17,7 @@ class Bank extends Admin_Controller {
 
 	public function view(){
                 $crud = $this->generate_crud($this->tbl);
+                $crud->set_theme('datatables');
                 $crud->columns('kode_bank','nama_bank','biaya_adm','status','keterangan');
                 $crud->display_as('kode_bank', 'Kode');
                 $crud->display_as('nama_bank', 'Nama');
