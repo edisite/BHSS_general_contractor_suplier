@@ -3,7 +3,7 @@
 GENERAL CONTRACTOR & SUPPLIER
 
 demo :
-<a href="http://belanjama.com/p/bhss">Demo</a>
+<a href="http://belanjama.com/p/bhss" target="_blank">Demo</a>
 
 <img src="assets/ghub/beranda.png">
 <img src="assets/ghub/kendaraan.png">
