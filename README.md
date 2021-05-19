@@ -1,6 +1,7 @@
 <<<<<<< HEAD
-# Cara penggunaan github
-Cara penggunaan github untuk berkolaborasi mengelola pekerjaan
+# PT. BINTANG HARAPAN SUKSES SEJAHTERA
+
+GENERAL CONTRACTOR & SUPPLIER
 
 1. [Untuk Kontributor](#untuk-kontributor)
 
@@ -28,7 +29,7 @@ $ git clone https://github.com/bantenprov/advancetrust.git
 $ cd advancetrust/
 ```
 
-<img src="images/git-tut1.png">
+<img src="assets/ghub/beranda.png">
 
 ### 2. git pull
 Perintah git pull ini akan sering kali digunakan apabila kita dalam bekerja membuat suatu aplikasi atau mengembangkan aplikasi secara tim.
