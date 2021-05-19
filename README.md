@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cara penggunaan github
 Cara penggunaan github untuk berkolaborasi mengelola pekerjaan
 
@@ -294,3 +295,6 @@ catatan ini bertujuan menggabungkan salah satu branch ke dalam master
 git checkout master
 git merge dev
 ```
+=======
+Project bhss
+>>>>>>> 30ddff38ceffc05341c6b23d2fa9ebf552559718
