@@ -121,11 +121,11 @@
                                                   <th scope="row">1</th>
                                                   <td><p class="text-sm"><?php echo $produkname; ?></p>
                                                   </td>
-                                                  <td class="text-center"><input type="text" name="order_qty_unit" class="form-control" value="<?php echo $order_qty_unit; ?>"></td>
+                                                  <td class="text-center"><input type="text" name="order_qty_unit" class="form-control" value="<?php echo $order_qty_unit; ?>" <?php echo $linedisable; ?>></td>
                                                   <?php
                                                         if($m_produk_kategori_id == "1"){
                                                             ?>                                          
-                                                                <td class="text-center"><input type="text" name="order_lama_sewa" class="form-control" value="<?php echo $order_satuan; ?>"></td>
+                                                                <td class="text-center"><input type="text" name="order_lama_sewa" class="form-control" value="<?php echo $order_satuan; ?>" <?php echo $linedisable; ?>></td>
                                                             <?php                                                        
                                                         }else{
                                                             ?>
@@ -195,7 +195,19 @@
             <input type="hidden" name="m_produk_kategori_id" value="<?php echo $m_produk_kategori_id; ?>">
             <input type="hidden" name="order_qty_sebelumnya" value="<?php echo $order_qty_unit; ?>">
             <div class="text-center">
-                <button type="submit" class="btn btn-success btn-sm center">SIMPAN</button>
+            <?php
+            if($buttonedit == "1"){
+               
+                ?>
+                    <button type="submit" class="btn btn-success btn-sm center"><?php echo $buttonvalue; ?></button>
+                <?php                                                        
+            }else{
+                ?>
+                <a href="<?php echo base_url(); ?>account/OrderEdit/<?php echo $order_id; ?>/edit" class="btn btn-info btn-sm ?>">EDIT</a>
+                <?php
+            }
+            
+            ?>               
                 <a href="<?php echo base_url(); ?>account/OrderKirimData/<?php echo $order_id; ?>" class="btn btn-info btn-sm <?php echo $kirimdisable; ?>">KIRIM DATA</a>
             </div>
             </form>

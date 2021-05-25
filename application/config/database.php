@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '10.1.1.9',
-	'username' => 'edi',
-	'password' => '3disit3SQL',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
 	'database' => 'db_bhss',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

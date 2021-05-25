@@ -201,8 +201,8 @@ class Account extends MY_Controller{
                 'order_status'          => '1', 
                 'm_produk_kategori_id'  => $m_produk_kategori_id, 
                 'm_produk_id'           => $produk_id, 
-                'order_qty_unit'        => 0, 
-                'order_lama_sewa'       => 0, 
+                'order_qty_unit'        => $order_qty_unit,
+                'order_lama_sewa'       => $order_lama_sewa, 
                 'order_keterangan'      => '', 
             );
 
@@ -370,7 +370,7 @@ class Account extends MY_Controller{
         }
         return FALSE;
     }
-    public function OrderEdit($id) {
+    public function OrderEdit($id, $edit = '') {
         $form = $this->form_builder->create_form();
         $select = '*';
         $where['data'][] = array(
@@ -425,7 +425,20 @@ class Account extends MY_Controller{
                 }
                 else{
                     $this->mViewData['kirimdisable']  = '';                    
+                }                
+                
+                if($edit == 'edit'){                
+                    $this->mViewData['kirimdisable']  = 'disabled';                    
+                    $this->mViewData['linedisable']  = '';                    
+                    $this->mViewData['buttonvalue']  = 'UPDATE';                    
+                    $this->mViewData['buttonedit']  = 1;                    
                 }
+                else{
+                    $this->mViewData['linedisable']  = 'disabled';                    
+                    $this->mViewData['buttonvalue']  = 'EDIT';                                       
+                    $this->mViewData['buttonedit']  = 0;                    
+                }
+
                 $this->mViewData['order_satuan']  = $order_satuan;
             }
         }else{
@@ -500,6 +513,26 @@ class Account extends MY_Controller{
         redirect($this->mConfig['login_url']);
     }
     public function OrderKirimData($order_id) {
+        $select = '*';
+        $where['data'][] = array(
+                'column' => 'order_id',
+                'param'	 => $order_id
+        );
+        $order['data'][] = array(
+                'column' => 'order_id',
+                'type'	 => 'DESC'
+        );
+        $query = $this->mod->select($select,'t_order', NULL, $where, NULL, NULL, $order);
+        if ($query<>false) {     
+            foreach ($query->result() as $val) {
+              
+               if($val->order_total == 0){
+                    $this->system_message->set_warning('Data tidak dapat dikirimkan, Transaksi Anda masih kosong');
+                    redirect(base_url().'account/PurchaseOrder/'.$order_id);
+                }
+            }
+        }
+
         $arrinst = array(
             'order_status'        => '2', 
             'order_status_date'   => date('Y-m-d H:i:s'), 
